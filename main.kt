@@ -19,6 +19,7 @@ import java.awt.Button
 //                     Byte                                 //
 //                     Short                                //
 //                     Long                                 //
+//                     False, True                          //
 // ----------------METAS----------------------------------- //
 // [ ] Aprender Kotlin                                      //
 // [ ] Terminar o Curso                                     //
@@ -29,14 +30,20 @@ fun main() {
     // TIPOS PRIMITIVOS EM KOTLIN //
     val botaoazul: Button
 
-    val price: Double = 31.90
+    val price = 31.90 // 64-bit ponto flutuante (floating point)
+
     // Espaços de memória em tipos primitivos //
+
+    // NÚMEROS //
     val byte: Byte = 8  // 8-bit
     val short: Short = 16 // 16-bit
     val age: Int = 31 // 32-bit (99% do tempo)
     val long: Long = 197298389 // 64-bit
-  
+    // TEXTOS //
     val product: String = "iMac"
 
-    println(byte::class)
+    // BOOLEANO // // Boolean Armazena 1 bye (8-bits)
+    val booleano = true
+
+    println(booleano::class)
 }
