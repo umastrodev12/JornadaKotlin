@@ -46,4 +46,8 @@ fun main() {
     val booleano = true
 
     println(booleano::class)
+
+    val nome: String = "Aquele Astro" // OBJETO = tipo
+    val novoNome = nome.lowercase() // ou val novoNome = nome.uppercase()
 }
+
